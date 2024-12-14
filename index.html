@@ -3,30 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify - This is my first project</title>
+    <title>Rythm</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li  class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li  class="brand"><img src="logo.png" alt="Rythm">Rythm</li>
             <li>Home</li>
             <li>About</li>
-            <li>hello</li>
+            
         </ul>
     </nav>
     <div class="container">
-        <h1>Best of NCS - No Copyrightc Sounds</h1>
-        <div class="songList"></div>
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div>
+                <div class="songItem">
+                    <img src="cover.jpg" alt="1">
+                    <span>
+                        Espresso
+                    </span>
+                    <span class="songListPlay"><span>05:34</span><<i class="fa-regular fa-2x fa-circle-play"></i>/span>
+                </div>
+            </div>
+
+        </div>
         <div class="songBanner"></div>
     </div>
     <div class="bottom">
         <input type="range" name="range" id="myProgressBar" min="0" max="100">
         <div class="icons">
             <!-- fontawesome icons -->
+            <i class="fa-solid fa-2x fa-backward"></i>
+            <i class="fa-regular fa-2x fa-circle-play"></i>
+            <i class="fa-solid fa-2x fa-forward"></i>
+
         </div>
 
     </div>
+    <script src="https://kit.fontawesome.com/7866c8ac19.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
